@@ -39,11 +39,11 @@ The client network used an isolated `192.168.2.0/24` segment in VirtualBox.
 | DNS option | Test client received `192.168.2.20` as DNS server |
 | MAC reservation | Reserved test client obtained `192.168.2.50` |
 
-See **[DHCP Server Portfolio Case Study](docs/Linux_DHCP_Server_Portfolio_Case_Study.pdf)** for the concise, recruiter-friendly summary.
+See **[DHCP Server Portfolio Case Study](Linux_DHCP_Server_Portfolio_Case_Study.pdf)** for the concise, recruiter-friendly summary.for the concise, recruiter-friendly summary.
 
 ## Example configuration
 
-`configs/dhcpd.conf.example` contains a **sanitized illustrative** DHCP configuration based on the academic lab. Adapt subnet/interfaces to your own environment before using it. The original complete course report is intentionally not published because it contains teammate information and setup-specific material.
+[DHCP Configuration Example](dhcpd.conf.example) contains a **sanitized illustrative** DHCP configuration based on the academic lab. Adapt subnet/interfaces to your own environment before using it. The original complete course report is intentionally not published because it contains teammate information and setup-specific material.
 
 ## Tools and skills
 
