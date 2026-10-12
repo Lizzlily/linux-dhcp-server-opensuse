@@ -1,0 +1,20 @@
+# Portfolio illustration, sanitized; not a production configuration.
+# Lab network: 192.168.2.0/24
+
+default-lease-time 18000;
+max-lease-time 36000;
+authoritative;
+
+subnet 192.168.2.0 netmask 255.255.255.0 {
+    range 192.168.2.100 192.168.2.200;
+    option subnet-mask 255.255.255.0;
+    option routers 192.168.2.1;
+    option domain-name-servers 192.168.2.20;
+    option domain-name "group2.local";
+}
+
+# Example reserved-client mapping. Replace this placeholder MAC when testing.
+host example-client {
+    hardware ethernet 02:00:00:00:00:01;
+    fixed-address 192.168.2.50;
+}
